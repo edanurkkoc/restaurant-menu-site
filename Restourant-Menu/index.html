@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant-Menu-Site</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="/img/logo.jpg" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="products.html">Ürünler</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+            <a href="blogs.html">Blog</a>
+        </nav>
+        <div class="buttons" >
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn" >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="/img/hamburger.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="/img/hamburger.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="/img/hamburger.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="/img/hamburger.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">15.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Kontrol Et</a>
+        </div>
+       
+    </header>
+    <!-- HEADER END -->
+    <!-- HOME START -->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>LEZZET RESTORANINA HOŞ GELDİNİZ!</h3>
+            <p>Amacımız lezzet durağımızda lezzete doymanız</p>
+           <a href="#" class="btn">Sipariş Verin</a>
+        </div>
+     </section>
+    <!-- HOME END -->
+     <!-- MENU START -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Menümüzü  <span>İnceleyin</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="/img/tatli-bogurtlen.jpg" alt="menu">
+                    <span class="menu-category">TATLI</span>
+                    <h3>Böğürtlenli Tatlı</h3>
+                    <div class="price">104.99 <span>119.99</span> </div>
+
+                </div>
+                <div class="box-bottom">
+                        <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/img/hamburger-patates-salata.jpg" alt="menu">
+                    <span class="menu-category">HAMBURGER MENU</span>
+                    <h3>Hamburger Patates</h3>
+                    <div class="price">104.99 <span>119.99</span> </div>
+
+                </div>
+                <div class="box-bottom">
+                        <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/img/pizza-3-tane.jpg" alt="menu">
+                    <span class="menu-category">PİZZA</span>
+                    <h3>3lü Karışık Pizza</h3>
+                    <div class="price">104.99 <span>119.99</span> </div>
+
+                </div>
+                <div class="box-bottom">
+                        <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/img/makarna.jpg" alt="menu">
+                    <span class="menu-category">MAKARNA</span>
+                    <h3>Köfteli Makarna</h3>
+                    <div class="price">104.99 <span>119.99</span> </div>
+
+                </div>
+                <div class="box-bottom">
+                        <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- MENU END -->
+    <!-- PRODUCT START -->
+<section class="products" id="products">
+    <h1 class="heading">Hizmetlerimizi <span>İnceleyin</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Yılbaşı</span>
+                <a href="#" class="name">Partisi</a>
+               
+            </div>
+            <div class="image">
+                <img src="/img/yilbasi.jpg" alt="yılbaşı">
+            </div>
+            <div class="box-bottom">
+            <div class="info">
+                <b class="price">24.000</b>
+                <span class="amount">/Gecelik</span>
+            </div>
+            <div class="product-btn">
+                <a href="#" class="ekle">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+                  
+              
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Kendin Pişir Kendin Ye</span>
+                <a href="#" class="name">Etkinliği</a>
+               
+            </div>
+            <div class="image">
+                <img src="/img/tava-asci.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+            <div class="info">
+                <b class="price">24.000</b>
+                <span class="amount">/Gecelik</span>
+            </div>
+            <div class="product-btn">
+                <a href="#" class="ekle">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+                  
+              
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Evlilik Teklifi</span>
+                <a href="#" class="name">Hazırlıkları</a>
+               
+            </div>
+            <div class="image">
+                <img src="/img/evlilik-teklifi.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+            <div class="info">
+                <b class="price">24.000</b>
+                <span class="amount">/Gecelik</span>
+            </div>
+            <div class="product-btn">
+                <a href="#" class="ekle">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+                  
+              
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Doğum Günü</span>
+                <a href="#" class="name">Partisi</a>
+               
+            </div>
+            <div class="image">
+                <img src="/img/dogum-parti.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+            <div class="info">
+                <b class="price">24.000</b>
+                <span class="amount">/Gecelik</span>
+            </div>
+            <div class="product-btn">
+                <a href="#" class="ekle">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+                  
+              
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- PRODUCT END -->
+<!-- ABOUT US START -->
+<section class="about" id="about">
+    <h1 class="heading">Biz <span>Kimiz?</span></h1>
+  <div class="row">
+    <div class="image">
+        <img src="/img/logo.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>Lezzet Durağı</h3>
+        <p>Anadolu'nun zengin lezzetlerini sofranıza taşıyan, yöresel tatların büyülü dünyasına kapılar açan bir mekânız. Taze ve doğal ürünlerle hazırladığımız yemeklerimizle, size unutulmaz bir lezzet yolculuğu yaşatıyoruz. Misafirlerimizi aile sıcaklığında ağırlayarak, onlara evlerinin özlemini duymayacakları bir ortam sunuyoruz.</p>
+        <p>Günün her anında keyifli bir mola vermek isteyenlerin adresiyiz. Taze çekilmiş kahvelerimiz ve ev yapımı lezzetli pastalarımızla, size unutulmaz bir kahve deneyimi sunuyoruz. Samimi ve sıcak atmosferimizde, sevdiklerinizle keyifli vakit geçirmenizi sağlıyoruz.</p>
+        <p>Doğal ve sağlıklı beslenmenin önemine inanan, bitkisel beslenmenin lezzetli olabileceğini kanıtlayan bir mekânız. Taze sebze ve meyvelerle hazırladığımız, tamamen bitkisel içerikli yemeklerimizle, hem damak zevkinizi tatmin ediyor hem de doğaya saygı gösteriyoruz</p>
+        <a href="#" class="btn">Daha Fazlası İçin</a>
+    </div>
+
+  </div>
+</section>
+<!-- ABOUT US END -->
+ <!-- REVİEW SECTİON START -->
+  <section class="review" id="review">
+    <h1 class="heading">Müşteri <span>Yorumları</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
+          
+            <h3>Jennifer Becker</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
+          
+            <h3>Jennifer Becker</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
+            
+            <h3>Jennifer Becker</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+
+  </section>
+ <!-- REVİEW SECTİON END -->
+  <!-- İLETİŞİM START -->
+    <section class="contact" id="contact">
+        <h1 class="heading">İletişime <span>Geçin</span></h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12037.85231519083!2d28.974791965109482!3d41.03700129154078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1722973099726!5m2!1str!2str"  
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form class="form" >
+                <h3>Bizimle İletişime Geçin!</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="İsim ve Soy İsim">
+                    </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+                    <div class="inputBox">
+                        <i class="fas fa-phone"></i>
+                        <input type="number" placeholder="Numara">
+                    </div>
+                    <button class="btn">Gönder</button>
+            </form>
+        </div>
+    </section>
+  <!-- İLETİŞİM END -->
+  <!-- BLOG START -->
+   <section class="blogs" id="blogs">
+    <h1 class="heading">Blog <span>Yazılarımız</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="/img/buyuk-hamburger-menu.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#">Burger Nasıl Yapılır?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, maiores.</p>
+                <a href="#" class="btn">Daha Fazlası</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/img/hamburger.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#">Burger Nasıl Yapılır?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, maiores.</p>
+                <a href="#" class="btn">Daha Fazlası</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/img/buyuk-hamburger-menu.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#">Burger Nasıl Yapılır?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, maiores.</p>
+                <a href="#" class="btn">Daha Fazlası</a>
+            </div>
+        </div>
+    </div>
+   
+
+   </section>
+  <!-- BLOG END -->
+  <!-- FOOTER START -->
+   <section class="footer">
+    <div class="search">
+        <input type="text"class="search-input" placeholder="search">
+        <button class="btn btn-primary">Ara</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a> 
+        <a href="#" class="fab fa-twitter"></a> 
+        <a href="#" class="fab fa-instagram"></a> 
+        <a href="#" class="fab fa-linkedin"></a> 
+        <a href="#" class="fab fa-pinterest"></a> 
+    </div>
+    <div class="links">
+        <a href="#" class="active">Ana Sayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Menü</a>
+            <a href="#">Ürünler</a>
+            <a href="#">Yorumlar</a>
+            <a href="#">İletişim</a>
+            <a href="#">Blog</a>
+    </div>
+    <div class="credit">
+        created by  <span>Edanur Kocakoç</span> | all rigths reserved
+
+    </div>
+   </section>
+  <!-- FOOTER END -->
+   <script src="/js/script.js"></script>
+
+</body>
+</html>
