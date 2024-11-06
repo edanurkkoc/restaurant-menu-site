@@ -1,11 +1,10 @@
 const searchForm = document.querySelector(".search-form");
 const cartItem = document.querySelector(".cart-items-container");
-const navbar = document.querySelector(".navbar");
+// const navbar = document.querySelector(".navbar");
 
 // Buttons
 const searchBtn = document.querySelector("#search-btn");
-const cartBtn = document.querySelector("#cart-btn");
-const menuBtn = document.querySelector("#menu-btn");
+
 
 // Click event listeners
 document.addEventListener("click", function(e) {
@@ -13,12 +12,26 @@ document.addEventListener("click", function(e) {
         searchForm.classList.remove("active");
     }
 
-    if (cartItem.classList.contains("active") && !e.composedPath().includes(cartBtn) && !e.composedPath().includes(cartItem)) {
-        cartItem.classList.remove("active");
-    }
+  
+});
+const cartBtn = document.getElementById('cart-btn');
+const cartContainer = document.querySelector('.cart-items-container');
 
-    if (navbar.classList.contains("active") && !e.composedPath().includes(menuBtn) && !e.composedPath().includes(navbar)) {
-        navbar.classList.remove("active");
+cartBtn.addEventListener('click', () => {
+    if (cartContainer.style.display === 'none' || cartContainer.style.display === '') {
+        cartContainer.style.display = 'block'; // Göster
+    } else {
+        cartContainer.style.display = 'none'; // Gizle
+    }
+});
+const menuBtn = document.getElementById('menu-btn');
+const navbar = document.querySelector('.navbar');
+
+menuBtn.addEventListener('click', () => {
+    if (navbar.style.display === 'none' || navbar.style.display === '') {
+        navbar.style.display = 'block'; 
+    } else {
+        navbar.style.display = 'none'; 
     }
 });
 
@@ -37,3 +50,4 @@ menuBtn.addEventListener("click", function(e) {
     e.stopPropagation();
     navbar.classList.toggle("active");
 });
+

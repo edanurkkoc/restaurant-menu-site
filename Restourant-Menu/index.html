@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Restourant-Menu/styles/styles.css">
+    <link rel="stylesheet" href="styles.min.css"> <!-- Minify edilmiş CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <title>Restaurant-Menu-Site</title>
 </head>
 <body>
     <!-- HEADER START -->
     <header class="header">
         <a href="#" class="logo">
-            <img src="/img/logo.jpg" alt="logo">
+            <img src="/Restourant-Menu/img/chef.png" alt="logo">
         </a>
         <nav class="navbar">
-            <a href="index.html" class="active">Ana Sayfa</a>
-            <a href="about.html">Hakkımızda</a>
-            <a href="menu.html">Menü</a>
-            <a href="products.html">Ürünler</a>
-            <a href="review.html">Yorumlar</a>
-            <a href="contact.html">İletişim</a>
-            <a href="blogs.html">Blog</a>
+            <a href="#home" >Ana Sayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#menu">Menü</a>
+            <a href="#products">Ürünler</a>
+            <a href="#review">Yorumlar</a>
+            <a href="#contact">İletişim</a>
+            <a href="#blogs">Blog</a>
         </nav>
         <div class="buttons" >
             <button id="search-btn">
@@ -40,7 +42,7 @@
         <div class="cart-items-container">
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="/img/hamburger.jpg" alt="">
+                <img src="/Restourant-Menu/img/hamburger.jpg" alt="">
                 <div class="content">
                     <h3>cart item 01</h3>
                     <div class="price">15.99</div>
@@ -48,7 +50,7 @@
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="/img/hamburger.jpg" alt="">
+                <img src="/Restourant-Menu/img/hamburger.jpg" alt="">
                 <div class="content">
                     <h3>cart item 01</h3>
                     <div class="price">15.99</div>
@@ -56,7 +58,7 @@
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="/img/hamburger.jpg" alt="">
+                <img src="/Restourant-Menu/img/hamburger.jpg" alt="">
                 <div class="content">
                     <h3>cart item 01</h3>
                     <div class="price">15.99</div>
@@ -64,7 +66,7 @@
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="/img/hamburger.jpg" alt="">
+                <img src="/Restourant-Menu/img/hamburger.jpg" alt="">
                 <div class="content">
                     <h3>cart item 01</h3>
                     <div class="price">15.99</div>
@@ -90,7 +92,7 @@
         <div class="box-container">
             <div class="box">
                 <div class="box-head">
-                    <img src="/img/tatli-bogurtlen.jpg" alt="menu">
+                    <img src="/Restourant-Menu/img/tatli-bogurtlen.jpg" alt="menu">
                     <span class="menu-category">TATLI</span>
                     <h3>Böğürtlenli Tatlı</h3>
                     <div class="price">104.99 <span>119.99</span> </div>
@@ -102,7 +104,7 @@
             </div>
             <div class="box">
                 <div class="box-head">
-                    <img src="/img/hamburger-patates-salata.jpg" alt="menu">
+                    <img src="/Restourant-Menu/img/hamburger-patates-salata.jpg" alt="menu">
                     <span class="menu-category">HAMBURGER MENU</span>
                     <h3>Hamburger Patates</h3>
                     <div class="price">104.99 <span>119.99</span> </div>
@@ -114,7 +116,7 @@
             </div>
             <div class="box">
                 <div class="box-head">
-                    <img src="/img/pizza-3-tane.jpg" alt="menu">
+                    <img src="/Restourant-Menu/img/pizza-3-tane.jpg" alt="menu">
                     <span class="menu-category">PİZZA</span>
                     <h3>3lü Karışık Pizza</h3>
                     <div class="price">104.99 <span>119.99</span> </div>
@@ -126,7 +128,7 @@
             </div>
             <div class="box">
                 <div class="box-head">
-                    <img src="/img/makarna.jpg" alt="menu">
+                    <img src="/Restourant-Menu/img/makarna.jpg" alt="menu">
                     <span class="menu-category">MAKARNA</span>
                     <h3>Köfteli Makarna</h3>
                     <div class="price">104.99 <span>119.99</span> </div>
@@ -150,7 +152,7 @@
                
             </div>
             <div class="image">
-                <img src="/img/yilbasi.jpg" alt="yılbaşı">
+                <img src="/Restourant-Menu/img/yilbasi.jpg" alt="yılbaşı">
             </div>
             <div class="box-bottom">
             <div class="info">
@@ -173,7 +175,7 @@
                
             </div>
             <div class="image">
-                <img src="/img/tava-asci.jpg" alt="">
+                <img src="/Restourant-Menu/img/tava-asci.jpg" alt="">
             </div>
             <div class="box-bottom">
             <div class="info">
@@ -196,7 +198,7 @@
                
             </div>
             <div class="image">
-                <img src="/img/evlilik-teklifi.jpg" alt="">
+                <img src="/Restourant-Menu/img/evlilik-teklifi.jpg" alt="">
             </div>
             <div class="box-bottom">
             <div class="info">
@@ -219,7 +221,7 @@
                
             </div>
             <div class="image">
-                <img src="/img/dogum-parti.jpg" alt="">
+                <img src="/Restourant-Menu/img/dogum-parti.jpg" alt="">
             </div>
             <div class="box-bottom">
             <div class="info">
@@ -243,7 +245,7 @@
     <h1 class="heading">Biz <span>Kimiz?</span></h1>
   <div class="row">
     <div class="image">
-        <img src="/img/logo.jpg" alt="">
+        <img src="/Restourant-Menu/img/chef.png" alt="">
     </div>
     <div class="content">
         <h3>Lezzet Durağı</h3>
@@ -261,7 +263,7 @@
     <h1 class="heading">Müşteri <span>Yorumları</span></h1>
     <div class="box-container">
         <div class="box">
-            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <img src="/Restourant-Menu/img/kullanici-foto.jpg" alt="quote">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
           
             <h3>Jennifer Becker</h3>
@@ -274,7 +276,7 @@
             </div>
         </div>
         <div class="box">
-            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <img src="/Restourant-Menu/img/kullanici-foto.jpg" alt="quote">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
           
             <h3>Jennifer Becker</h3>
@@ -287,7 +289,7 @@
             </div>
         </div>
         <div class="box">
-            <img src="/img/kullanici-foto.jpg" alt="quote">
+            <img src="/Restourant-Menu/img/kullanici-foto.jpg" alt="quote">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, architecto.</p>
             
             <h3>Jennifer Becker</h3>
@@ -335,7 +337,7 @@
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="/img/buyuk-hamburger-menu.jpg" alt="blog">
+                <img src="/Restourant-Menu/img/buyuk-hamburger-menu.jpg" alt="blog">
             </div>
             <div class="content">
                 <a href="#">Burger Nasıl Yapılır?</a>
@@ -346,7 +348,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="/img/hamburger.jpg" alt="blog">
+                <img src="/Restourant-Menu/img/hamburger.jpg" alt="blog">
             </div>
             <div class="content">
                 <a href="#">Burger Nasıl Yapılır?</a>
@@ -357,7 +359,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="/img/buyuk-hamburger-menu.jpg" alt="blog">
+                <img src="/Restourant-Menu/img/buyuk-hamburger-menu.jpg" alt="blog">
             </div>
             <div class="content">
                 <a href="#">Burger Nasıl Yapılır?</a>
@@ -385,13 +387,13 @@
         <a href="#" class="fab fa-pinterest"></a> 
     </div>
     <div class="links">
-        <a href="#" class="active">Ana Sayfa</a>
-            <a href="#">Hakkımızda</a>
-            <a href="#">Menü</a>
-            <a href="#">Ürünler</a>
-            <a href="#">Yorumlar</a>
-            <a href="#">İletişim</a>
-            <a href="#">Blog</a>
+        <a href="#home" >Ana Sayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#menu">Menü</a>
+            <a href="#products">Ürünler</a>
+            <a href="#reviews">Yorumlar</a>
+            <a href="#contact">İletişim</a>
+            <a href="#blog">Blog</a>
     </div>
     <div class="credit">
         created by  <span>Edanur Kocakoç</span> | all rigths reserved
@@ -399,7 +401,7 @@
     </div>
    </section>
   <!-- FOOTER END -->
-   <script src="/js/script.js"></script>
+   <script src="/Restourant-Menu/js/script.js"></script>
 
 </body>
 </html>
